@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+
+
+var listMas = [
+
+    {
+        id : 1,
+        title : "Сокровища Сьерра Мадре",
+        director : "Джон Хьюстон",
+        year : "1948",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster18622_2_prev.jpg"
+    },{
+        id : 2,
+        title : "Золото Маккенны",
+        director : "Дж. Ли Томпсон",
+        year : "1969",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster24097_3_p.jpg"
+    },{
+        id : 3,
+        title : "На несколько долларов больше",
+        director : "Серджио Леоне",
+        year : "1965",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster38060_3_p.jpg"
+    },{
+        id : 4,
+        title : "Большие гонки",
+        director : "Блейк Эдвардс",
+        year : "1965",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster29350_7_p.jpg"
+    },{
+        id : 5,
+        title : "Однажды на Диком Западе",
+        director : "Серджио Леоне",
+        year : "1968",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster19221_2_prev.jpg"
+    },{
+        id : 6,
+        title : "Преисподняя",
+        director : "Мартин Кулховен",
+        year : "2016",
+        pister : "http://www.kinonews.ru/insimgs/2016/poster/poster63702_1_p.jpg"
+    },{
+        id : 7,
+        title : "Назад в будущее 3",
+        director : "Роберт Земекис",
+        year : "1990",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster4417_1_prev.jpg"
+    },{
+        id : 8,
+        title : "Буч Кэссиди и Сандэнс Кид",
+        director : "Джордж Рой Хилл",
+        year : "1969",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster11535_6_prev.jpg"
+    },{
+        id : 9,
+        title : "Хороший, плохой, злой",
+        director : "Серджио Леоне",
+        year : "1966",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster37857_13_p.jpg"
+    },{
+        id : 10,
+        title : "Зорро",
+        director : "Дуччо Тессари",
+        year : "1975",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster47760_3_p.jpg"
+    },{
+        id : 11,
+        title : "Тумстоун: Легенда дикого запада",
+        director : "Джордж Пан Косматос, Кевин Жарр",
+        year : "1993",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster25946_2_p.jpg"
+    },{
+        id : 12,
+        title : "Красное солнце",
+        director : "Теренс Янг",
+        year : "1971",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster25045_2_p.jpg"
+    },{
+        id : 13,
+        title : "Танцующий с волками",
+        director : "Кевин Костнер",
+        year : "1990",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster3793_2_prev.jpg"
+    },{
+        id : 14,
+        title : "Герой - одиночка",
+        director : "Уолтер Хилл",
+        year : "1996",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster22584_2_p.jpg"
+    },{
+        id : 15,
+        title : "Человек с бульвара Капуцинов",
+        director : "Алла Сурикова",
+        year : "1987",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster38259_1_p.jpg"
+    },{
+        id : 16,
+        title : "За пригоршню долларов",
+        director : "Серджио Леоне, Монте Хеллман",
+        year : "1964",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster18443_2_prev.jpg"
+    },{
+        id : 17,
+        title : "Мэверик",
+        director : "Ричард Доннер",
+        year : "1994",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster3392_3_prev.jpg"
+    },{
+        id : 18,
+        title : "Непрощенный",
+        director : "Клинт Иствуд",
+        year : "1992",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster12953_1_prev.jpg"
+    },{
+        id : 19,
+        title : "Джанго освобожденный",
+        director : "Квентин Тарантино",
+        year : "2012",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster25988_1_p.jpg"
+    },{
+        id : 20,
+        title : "Легенды осени",
+        director : "Эдвард Цвик",
+        year : "1994",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster4313_2_prev.jpg"
+    },{
+        id : 21,
+        title : "Хороший, плохой, долбанутый",
+        director : "Джи-Вун Ким, Ким Чжи Ун",
+        year : "2008",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster4914_7_prev.jpg"
+    },{
+        id : 22,
+        title : "Мертвец",
+        director : "Джим Джармуш",
+        year : "1995",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster3259_3_prev.jpg"
+    },{
+        id : 23,
+        title : "Спасение",
+        director : "Кристиан Левринг",
+        year : "2014",
+        pister : "http://www.kinonews.ru/insimgs/2015/poster/poster51015_1_p.jpg"
+    },{
+        id : 24,
+        title : "Предложение",
+        director : "Джон Хиллкоут",
+        year : "2005",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster24609_1_p.jpg"
+    },{
+        id : 25,
+        title : "Неуловимые мстители",
+        director : "Эдмонд Кеосаян",
+        year : "1966",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster18531_2_prev.jpg"
+    },{
+        id : 26,
+        title : "Блуберри",
+        director : "Ян Каунен",
+        year : "2004",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster19140_2_prev.jpg"
+    },{
+        id : 27,
+        title : "Аппалуза",
+        director : "ролях: Вигго Мортенсен, Рене Зеллвегер",
+        year : "2008",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster116_1_prev.jpg"
+    },{
+        id : 28,
+        title : "Всадник без головы",
+        director : "Владимир Вайншток",
+        year : "1973",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster23090_1_p.jpg"
+    },{
+        id : 29,
+        title : "Открытый простор",
+        director : "Кевин Костнер",
+        year : "2003",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster19226_2_prev.jpg"
+    },{
+        id : 30,
+        title : "Железная хватка",
+        director : "Итан Коэн, Джоэл Коэн",
+        year : "2010",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster12180_1_prev.jpg"
+    },{
+        id : 31,
+        title : "Омерзительная восьмерка",
+        director : "Квентин Тарантино",
+        year : "2015",
+        pister : "http://www.kinonews.ru/insimgs/2015/poster/poster58160_1_p.jpg"
+    },{
+        id : 32,
+        title : "Великолепная семерка",
+        director : "Джон Стерджес",
+        year : "1960",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster9403_5_prev.jpg"
+    },{
+        id : 33,
+        title : "Дрожь земли 4: Легенда начинается",
+        director : "С.С. Уилсон",
+        year : "2004",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster33305_1_p.jpg"
+    },{
+        id : 34,
+        title : "Молодые стрелки",
+        director : "Кристофер Кэйн",
+        year : "1988",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster4568_4_prev.jpg"
+    },{
+        id : 35,
+        title : "Поезд на Юму",
+        director : "Джеймс Мэнголд",
+        year : "2007",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster3401_4_prev.jpg"
+    },{
+        id : 36,
+        title : "Как трусливый Роберт Форд убил Джесси Джеймса",
+        director : "Эндрю Доминик",
+        year : "2007",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster3236_2_prev.jpg"
+    },{
+        id : 37,
+        title : "Искатели",
+        director : "Джон Форд",
+        year : "1956",
+        pister : "http://www.kinonews.ru/insimgs/2016/poster/poster65032_4_p.jpg"
+    },{
+        id : 38,
+        title : "Маска Зорро",
+        director : "Мартин Кэмпбелл",
+        year : "1998",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster3471_1_prev.jpg"
+    },{
+        id : 39,
+        title : "Шанхайский полдень",
+        director : "Том Дей",
+        year : "2000",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster26084_1_p.jpg"
+    },{
+        id : 40,
+        title : "Банда Келли",
+        director : "Грегор Джордан",
+        year : "2003",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster19133_2_prev.jpg"
+    },{
+        id : 41,
+        title : "Строго на запад",
+        director : "Джон Маклин",
+        year : "2015",
+        pister : "http://www.kinonews.ru/insimgs/2016/poster/poster59269_1_p.jpg"
+    },{
+        id : 42,
+        title : "Шанхайские рыцари",
+        director : "Дэвид Добкин",
+        year : "2003",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster23754_4_p.jpg"
+    },{
+        id : 43,
+        title : "Быстрый и мертвый",
+        director : "Сэм Рейми",
+        year : "1995",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster3463_2_prev.jpg"
+    },{
+        id : 44,
+        title : "Австралия",
+        director : "Баз Лурман",
+        year : "2008",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster1013_1_prev.jpg"
+    },{
+        id : 45,
+        title : "Уайатт Эрп",
+        director : "Лоуренс Кэздан",
+        year : "1994",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster4186_1_prev.jpg"
+    },{
+        id : 46,
+        title : "Костяной томагавк",
+        director : "С. Крэйг Залер",
+        year : "2015",
+        pister : "http://www.kinonews.ru/insimgs/2015/poster/poster56359_5_p.jpg"
+    },{
+        id : 47,
+        title : "Бандитки",
+        director : "Хоаким Роннинг, Эспен Сандберг",
+        year : "2006",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster4613_4_prev.jpg"
+    },{
+        id : 48,
+        title : "Легенда Зорро",
+        director : "Мартин Кэмпбелл",
+        year : "2005",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster6790_7_prev.jpg"
+    },{
+        id : 49,
+        title : "Великолепная семерка",
+        director : "Антуан Фукуа",
+        year : "2016",
+        pister : "http://www.kinonews.ru/insimgs/2016/poster/poster66778_2_p.jpg"
+    },{
+        id : 50,
+        title : "Неуловимый Люк",
+        director : "Джеймс Хат",
+        year : "2009",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster13268_6_prev.jpg"
+    },{
+        id : 51,
+        title : "Темная долина",
+        director : "Андреас Прохазка",
+        year : "2014",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster45183_1_p.jpg"
+    },{
+        id : 52,
+        title : "Дикий, дикий Запад",
+        director : "Барри Зонненфельд",
+        year : "1999",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster17726_6_prev.jpg"
+    },{
+        id : 53,
+        title : "Западный мир",
+        director : "Майкл Крайтон",
+        year : "1973",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster44510_1_p.jpg"
+    },{
+        id : 54,
+        title : "Убийца внутри меня",
+        director : "Майкл Уинтерботтом",
+        year : "2010",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster38542_5_p.jpg"
+    },{
+        id : 55,
+        title : "От заката до рассвета 3: Дочь палача",
+        director : "П.Дж. Пеше",
+        year : "1999",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster6496_1_prev.jpg"
+    },{
+        id : 56,
+        title : "Ковбои против Пришельцев",
+        director : "Джон Фавро",
+        year : "2011",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster14820_3_prev.jpg"
+    },{
+        id : 57,
+        title : "Нелепая шестерка",
+        director : "Фрэнк Корачи",
+        year : "2015",
+        pister : "http://www.kinonews.ru/insimgs/2015/poster/poster56974_1_p.jpg"
+    },{
+        id : 58,
+        title : "Миллион способов потерять голову",
+        director : "Сет МакФарлейн",
+        year : "2014",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster40286_1_p.jpg"
+    },{
+        id : 59,
+        title : "Джона Хекс",
+        director : "Джимми Хейуорд",
+        year : "2010",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster8816_4_prev.jpg"
+    },{
+        id : 60,
+        title : "Путь воина",
+        director : "Снгму Ли",
+        year : "2010",
+        pister : "http://www.kinonews.ru/insimgs/poster/poster11376_6_prev.jpg"
+    },{
+        id : 61,
+        title : "Джейн берет ружье",
+        director : "Гэвин О`Коннор",
+        year : "2016",
+        pister : "http://www.kinonews.ru/insimgs/2016/poster/poster60380_4_p.jpg"
+    }
+];
+
+</script>
+</body>
+</html>

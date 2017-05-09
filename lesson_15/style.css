@@ -1,0 +1,17 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed';
+
+html, body{
+	padding:  0; /* Обнуляєм отступи */
+	margin: 0;
+    background-color: #E8B715;/* цвет фона*/
+    /*height: 100vh;*/
+}
+*{
+    font-family: "Roboto Condensed",Arial,sans-serif; /* Приминяєм шрифт */
+    box-sizing: border-box;
+}
+
+.active {
+    border: solid 3px red;
+}
+

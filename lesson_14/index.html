@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!--Main -->
+    <link rel="stylesheet" type="text/css" href="2-form-set.css">
+
+
+</head>
+<body>
+    <div id="page-wrapper" >
+        <div class="box1"><h1>Speker Submision</h1>
+        <p>Want to speak at our fake conference?</p> 
+        <p>Fill out this form</p>
+        </div>
+        <div class="box2">
+            <form action="" method="POST">
+                <div id="label-info">
+                                 <label for="name"> Name</label></br>
+                                  <label for="email"> Email</label></br> 
+                                  <label > Type of Talk</label></br> 
+                                  <label>T-Shirt Size</label></br>
+                                  <label>Abstract</label></br>
+                </div>
+                <div id="input-form">
+                                 <input type="text" name="name" id="name" placeholder=""></br>
+                                 <input type="text" id="email" name="email" maxlength="50" size="20" placeholder="you@example.com"></br>
+                                 
+                                 <input type="radio" name="changer" id="changer2" value="1"><label for="changer2"> Main Starge</label>
+                                 <input type="radio" name="changer" id="changer3" value="2"><label for="changer3">Workshop</label></br>
+                                 
+                                 <select name="selectoring" id="selectoring">
+                                       <option value="s1" selected>Extra Small</option>
+                                       <option value="s2">Small</option>
+                                       <option value="s3">Normal</option>
+                                       <option value="s3">Large</option>
+                                       <option value="s3">Extra Large</option>
+                                 </select></br>
+                                 
+                                 <textarea name="text" cols="35" rows="10"></textarea></br>
+                                 <span id="color">Describe you talk in 500 words or less</span></br>
+                                 <input type="checkbox" id="checkbox" value="" >
+                                 <label for="checkbox"> I'm actually available the date of the talk</label>
+                </div>
+            </form>
+        </div>
+        <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed';
+html, body{
+	padding:  0; /* Обнуляєм отступи */
+	margin: 0;
+    background-color: #E8B715;/* цвет фона*/
+}
+#page-wrapper{
+	padding-top: 0px; /* отступ сверху для всей странице 0 */
+}
+*{
+	font-family: "Roboto Condensed",Arial,sans-serif; /* Приминяєм шрифт */
+	box-sizing: border-box;
+}
+.box1
+{ 
+    align-content: center; /* Виравниваниє бокса */
+    margin: 26px auto 26px; /*Отступи*/
+    background: #FFA40F; /* Цвет фона */
+    width: 80%; /* Ширина блока */
+    padding: 10px; /* Поля */
+    border-radius: 10px; /* Угли рамки */
+    border: 2px solid #000; /* Параметры рамки */
+    text-align: center; /* Виравниваниє текста */
+    font-size: 28px; /* Размер шрифта */
+}
+.box2
+{ 
+    align-content: center; /* Виравниваниє бокса */
+    margin: 26px auto 26px; /*Отступи*/
+    background: #FFA40F; /* Цвет фона */
+    width: 80%; /* Ширина блока */
+    padding: 10px; /* Поля */
+    border-radius: 10px; /* Угли рамки */
+    border: 2px solid #000; /* Параметры рамки */
+    font-size: 28px; /* Размер шрифта */
+}
+#color
+{
+ color: #575757;/*цвет текста под textarea */
+}
+#label-info{
+    padding: 0 10px;
+    display: table-cell;
+    vertical-align: top;
+    width: 49%;
+    text-align: right;
+}
+#input-form{ 
+    display: table-cell;
+    vertical-align: top;
+    width: 49%;
+}
